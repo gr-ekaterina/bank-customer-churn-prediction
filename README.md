@@ -115,19 +115,25 @@ bank-customer-churn-prediction/
    cd bank-customer-churn-prediction
    ```
 
-2. Create and activate a virtual environment:
+2. Create a virtual environment:
 
    ```bash
    python -m venv .venv
    ```
 
-   Windows:
+   Activate the environment on Windows (PowerShell):
 
-   ```bash
-   .venv\Scripts\activate
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
    ```
 
-   macOS or Linux:
+   On Windows (Command Prompt):
+
+   ```bat
+   .venv\Scripts\activate.bat
+   ```
+
+   On macOS or Linux:
 
    ```bash
    source .venv/bin/activate
